@@ -27,7 +27,7 @@ jobs:
     - name: Run!
       env:
           THREAD: ${{ secrets.THREAD }}
-          URL: ${{ secrets.URL }}:  
+          URL: ${{ secrets.URL }} 
       run: |
         chmod 777 main
         ./main
